@@ -3,7 +3,7 @@ import 'dart:convert';
 import 'dart:io';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:http/http.dart' as http;
-import 'package:recipe_finder/meal-model.dart';
+import 'package:recipe_finder/model/meal-model.dart';
 //import 'meal-screen.dart' hide Meal; // jahan Meal class hai
 
 final mealsByCategoryProvider =

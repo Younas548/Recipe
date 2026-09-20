@@ -2,7 +2,8 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '/app_theme.dart';
-import '/search-provider.dart';
+
+import '../providers/search-provider.dart';
 import 'meal_detail_screen.dart';
 
 class SearchScreen extends ConsumerStatefulWidget {

@@ -2,7 +2,7 @@ import 'dart:convert';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_riverpod/legacy.dart';
 import 'package:http/http.dart' as http;
-import '/meal-model.dart';
+import '../model/meal-model.dart';
 
 final queryProvider = StateProvider<String> ((ref)=> '');
 final searchProvider = FutureProvider.family<List<Meal>, String>((ref , query)async {

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '/app_theme.dart';
-import '/meal-provider.dart';
+import '../providers/meal-provider.dart';
 //import 'meal-model.dart';   // <-- asal Meal class yahan se import karo
 import 'meal_detail_screen.dart';
 

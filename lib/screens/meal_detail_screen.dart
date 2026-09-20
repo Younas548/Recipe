@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '/app_theme.dart';
-import '/meal_detail_provider.dart';
-import '/favourites_provider.dart';
+
+import '../providers/meal_detail_provider.dart';
+import '../providers/favourites_provider.dart';
 //import 'meal-screen.dart'; 
-import '/meal-model.dart'; // Meal class
+import '../model/meal-model.dart'; // Meal class
 
 class MealDetailScreen extends ConsumerWidget {
   final String mealId;
